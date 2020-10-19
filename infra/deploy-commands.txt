@@ -1,0 +1,13 @@
+    
+# build angular app
+cd ../front-end
+ng build --prod
+
+# deploy front-end resources:
+aws cloudformation deploy --template-file ./s3-template.json --stack-name FrontEndStack
+aws s3 sync ../front-end/hello-world-app/dist s3://hello-world-serverless-app
+
+# deploy back-end resources:
+cd ../back-end
+sam build --template-file ../infra/lambda-template.json
+sam deploy --s3-bucket hello-world-serverless-app --s3-prefix lambda-code --capabilities CAPABILITY_NAMED_IAM --stack-name BackEndStack

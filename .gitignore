@@ -1,0 +1,6 @@
+new_user_credentials.csv
+back-end/.aws-sam/
+front-end/package-lock.json
+front-end/hello-world-app/.browserslistrc
+front-end/hello-world-app/.editorconfig
+front-end/hello-world-app/package-lock.json

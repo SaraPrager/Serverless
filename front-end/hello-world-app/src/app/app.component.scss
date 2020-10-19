@@ -1,0 +1,50 @@
+.hwa-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:10vh;
+    background: #f5f5f5;
+}
+
+.hwa-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+}
+
+.hwa-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:10vh;
+    background: #f5f5f5;
+}
+
+h1 {
+    color: #334655;
+}
+
+h2 {
+    color: cadetblue;
+}
+
+button {
+    color: cadetblue;
+}
+
+textarea {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin: 2%;
+    min-height: 20%;
+    width: 30%;
+    background-color: #f8f8f8;
+}
+
+a {
+    margin: 2%;  
+}

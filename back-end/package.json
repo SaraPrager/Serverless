@@ -1,0 +1,11 @@
+{
+  "name": "hello-serverless-world-app",
+  "version": "1.0.0",
+  "description": "a simple serverless application",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "Sara Prager",
+  "license": "ISC"
+}

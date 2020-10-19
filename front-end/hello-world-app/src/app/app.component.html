@@ -1,0 +1,18 @@
+<mat-toolbar class="hwa-header">
+  <span>Hello World App</span>
+</mat-toolbar>
+
+<div class="hwa-body">
+  <h1>Welcome to the Hello World serverless App!</h1>
+  <h2>Enter you name then click 'Call API Gateway'!</h2>
+  <textarea [(ngModel)]="input" matInput placeholder="Put your name here..."></textarea>
+  <button mat-raised-button (click)="onClick()">Call API Gateway!</button>
+  <textarea *ngIf="output" disabled> {{ output }} </textarea>
+  <a href="{{ source_code_link }}">Click here to view the source code</a>
+</div>
+
+<footer class="hwa-footer">
+  <div>
+    <span> © Sara Prager </span>
+  </div>
+</footer>
