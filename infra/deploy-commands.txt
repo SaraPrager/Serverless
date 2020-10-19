@@ -1,4 +1,3 @@
-    
 # build angular app
 cd ../front-end
 ng build --prod

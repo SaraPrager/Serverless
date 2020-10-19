@@ -1,5 +1,4 @@
 exports.handler = async (event) => {
-
   // a wrapper for JSON.parse method, returns false instead of exception
   function parseJson(obj) {
     try {

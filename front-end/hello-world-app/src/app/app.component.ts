@@ -10,7 +10,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 export class AppComponent {
   input: string;
   output: string;
-  source_code_link: string = '->->';
+  source_code_link: string = 'https://github.com/SaraPrager/hello-world-serverless-app';
   constructor(private _snackBar: MatSnackBar, private _httpClient: HttpClient) {
   }
 
